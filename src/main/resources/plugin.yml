@@ -1,0 +1,21 @@
+name: WhitelistPlus
+version: 1.0-SNAPSHOT
+main: tech.bedev.WhitelistPlus.Main
+authors:
+  - ElitestarsSam
+website: https://www.be-development.tech
+depend:
+  - Vault
+  - PlaceholderAPI
+commands:
+  whitelist:
+    description: WhitelistPlus main command
+    aliases:
+      - wl
+      - wp
+      - whitelistplus
+permissions:
+  wp.switchmode:
+    default: op
+  wp.reload:
+    default: op

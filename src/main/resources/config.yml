@@ -1,0 +1,53 @@
+# In the users area please enter the user unique id and not their name
+# Custom kick message is PlaceholderAPI compatible
+# Valid modes are all, admin, beta, staff and custom
+
+# ==================================== #
+
+Mode: "all"
+
+# ==================================== #
+
+KickMessage: "&fYou are not whitelisted on this server!"
+
+# ==================================== #
+
+Admin:
+  Users:
+    -
+  Groups:
+    - 'owner'
+    - 'co-owner'
+    - 'manager'
+    - 'admin'
+
+# ==================================== #
+
+Staff:
+  Users:
+    -
+  Groups:
+    - 'owner'
+    - 'co-owner'
+    - 'manager'
+    - 'admin'
+    - 'mod'
+    - 'helper'
+
+# ==================================== #
+
+Beta:
+  Users:
+    -
+  Groups:
+    - 'beta'
+
+# ==================================== #
+
+Custom:
+  Users:
+    -
+  Groups:
+    -
+
+# ==================================== #
